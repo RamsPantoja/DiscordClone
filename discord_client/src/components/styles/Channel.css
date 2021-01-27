@@ -1,0 +1,23 @@
+.channel_container {
+    display: flex;
+    align-items: center;
+    margin: 0.1em 1.5em;
+    border-radius: 5px;
+    color:  #8e9297;
+}
+
+.channel_container:hover {
+    background-color: #393c43;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.channel_hash {
+    font-size: 1.5rem;
+    padding-left: 0.5em;
+}
+
+.channel_title {
+    font-size: 0.9rem;
+    padding-left: 0.5em;
+}

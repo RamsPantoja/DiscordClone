@@ -1,0 +1,43 @@
+.chat_input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #cecece;
+    padding: 0.5em;
+    background-color: #40444b;
+    border-radius: 10px;
+    margin: 1em;
+    max-height: 1.5em;
+}
+
+.chat_input > form {
+    flex: 1;
+}
+
+.chat_input > form > input {
+    margin: 0 1em;
+    padding: 0.4em;
+    outline-width: 0;
+    color: #ffffff;
+    width: 95%;
+    background: transparent;
+    border: none;
+}
+
+.chat_inputButton {
+    display: none;
+}
+
+.chat_inputIcons > .MuiSvgIcon-root {
+    padding: 5px;
+}
+
+.chat_inputIcons > .MuiSvgIcon-root:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.chat_inputAdd:hover {
+    color: #ffffff;
+    cursor: pointer;
+}

@@ -1,0 +1,23 @@
+.chat_container {
+    display: flex;
+    background-color: #36393f;
+    flex-direction: column;
+    flex: 0.8;
+    height: 100vh;
+}
+
+.chat_messages {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: hidden scroll;
+}
+
+.chat_messages::-webkit-scrollbar {
+    display: none;
+}
+
+.chat_messages {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}

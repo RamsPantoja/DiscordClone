@@ -1,0 +1,121 @@
+.add_channel_backdrop {
+    opacity: 0.85;
+    background-color: rgb(0, 0, 0);
+    z-index: 1000;
+    transform: translateZ(0px);
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.add_channel {
+    opacity: 1;
+    color: #ffffff;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    user-select: none;
+    align-content: space-around;
+    z-index: 1000;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    box-sizing: border-box;
+}
+
+.add_channelInert {
+    display: flex;
+    flex-direction: column;
+}
+
+.add_channelForm {
+    background-color: #36393f;
+    display: flex;
+    position: relative;
+    border-radius: 5px;
+    flex-direction: column;
+    width: 26em;
+    max-height: 20em;
+    min-height: 7em;
+}
+
+.add_channelForm_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em;
+}
+
+.add_channelForm_header > span {
+    font-size: small;
+    color: #8e9297;
+}
+
+.add_channelForm_input {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 1em;
+}
+
+.add_channelForm_input > h5 {
+    margin-bottom: 1em;
+    font-size: x-small;
+    color: #8e9297;
+}
+
+.add_channelForm_input > input {
+    background-color: #303339;
+    outline: none;
+    padding: 0.8em;
+    height: 1em;
+    border-radius: 3px;
+    color: #ffffff;
+    border: 0.5px solid #202225;
+}
+
+.add_channelForm_inputError {
+    color: #f04747;
+    font-size: smaller;
+    margin-top: 1px;
+}
+
+.add_channelForm_input > input:focus {
+    border: 0.5px solid #7289da;
+}
+
+.add_channelForm_buttons {
+    background-color: #2f3136;
+    display: flex;
+    padding: 1em;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 0 0 5px 5px;
+}
+
+.add_channelForm_buttons > button {
+    background-color: #7289da;
+    color: #ffffff;
+}
+
+.add_channelForm_buttons > button:hover {
+    background-color: #637dda;
+}
+
+.add_channelForm_buttons > span {
+    margin: 0 1em;
+    padding: 7px;
+    font-size: smaller;
+}
+
+.add_channelForm_buttons > span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

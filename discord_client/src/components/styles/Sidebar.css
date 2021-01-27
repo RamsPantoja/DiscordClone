@@ -1,0 +1,145 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    flex: 0.20;
+    height: 100vh;
+    background-color: #2f3136;
+}
+
+.sidebar_header {
+    display: flex;
+    border-bottom: 3px solid #2b2d32;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 1em;
+    color: #ffffff;
+}
+
+.sidebar_header > h1 {
+    font-size: 1rem;
+}
+.sidebar_header:hover {
+    background-color: #34373c;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.sidebar_channels {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.sidebar_channels_header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 1em;
+    align-items: center;
+    color: #8e9297;
+}
+
+.sidebar_channels_headerLeft {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar_channels_headerLeft > h3 {
+    font-size: 0.9rem;
+}
+
+.sidebar_channels_headerLeft:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.sidebar_channels_headerAdd:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.sidebar_voice {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #292b2f;
+}
+
+.sidebar_voiceInfo {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    padding: 0.5em;
+}
+
+.sidebar_voiceInfo > h4 {
+    color: #43b581;
+}
+.sidebar_voiceIcon {
+    padding-left: 0.2em;
+    color: #43b581;
+}
+
+.sidebar_voiceInfo > span {
+    color: #8e9297;
+    font-size: smaller;
+}
+
+.sidebar_voiceInfo > span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.sidebar_voiceIcons {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    color: #8e9297;
+}
+
+.sidebar_voiceIcons > .MuiSvgIcon-root {
+    padding: 8px;
+}
+
+.sidebar_voiceIcons > .MuiSvgIcon-root:hover {
+    background-color: #393c43;
+    transition: 0.1s ease;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sidebar_profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1.8px solid #36373b;
+    background-color: #292b2f;
+    padding: 0.7em;
+}
+
+.sidebar_profileInfo {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-left: 0.5em;
+}
+
+.sidebar_profileInfo:hover {
+    cursor: pointer;
+}
+
+.sidebar_profileInfo > h4 {
+    color: #ffffff;
+    font-size: smaller;
+}
+
+.sidebar_profileInfo > p {
+    color: #8e9297;
+}
+
+.sidebar_profileIcons {
+    padding-left: 1em;
+}
+
+.sidebar_profileIcons > .MuiSvgIcon-root {
+    color: #8e9297;
+    padding: 10px;
+}
